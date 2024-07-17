@@ -1,7 +1,7 @@
 name: insta_style_feed_lego
 description: "Instagram style feed Lego"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/lego
+repository: https://github.com/flutter-lego/insta_style_feed_lego
 
 version: 1.0.0
 
