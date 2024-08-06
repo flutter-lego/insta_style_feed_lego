@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-
-import '../../../../../../../../../../../main.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:gap/gap.dart';
+import 'package:styled_widget/styled_widget.dart';
 
 class ItemView extends StatefulWidget {
   const ItemView({super.key});
@@ -130,5 +131,7 @@ class _ItemViewState extends State<ItemView> {
 }
 
 main() async {
-  return buildApp(home: ItemView());
+  return runApp(MaterialApp(
+    home: ItemView(),
+  ));
 }
