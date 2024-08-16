@@ -15,8 +15,9 @@ class _NewViewState extends State<NewView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.onPrimary,
       appBar: AppBar(
+        backgroundColor: Theme.of(context).colorScheme.onPrimary,
         title: Text("Feed")
             .textStyle(Theme.of(context).textTheme.titleLarge!)
             .fontWeight(FontWeight.bold),
